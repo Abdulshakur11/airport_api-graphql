@@ -6,7 +6,9 @@ const { PORT } = require('./config');
 const modules = require('./modules');
 
 const server = new ApolloServer({
-  modules
+  modules,
+  introspection: true,
+  playground: true
 });
 
 const httpServer = http.createServer(app);
