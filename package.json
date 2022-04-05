@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "name": "homework-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
